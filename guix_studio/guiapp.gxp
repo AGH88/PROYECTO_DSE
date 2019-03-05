@@ -1176,11 +1176,6 @@
 <num_strings>20</num_strings>
 <num_languages>1</num_languages>
 <string_record>
-<id>TITULO1</id>
-<font>0</font>
-<val>Nombre del proyecto:</val>
-</string_record>
-<string_record>
 <id>TITULO2</id>
 <font>0</font>
 <val>Control Vel. Motor CD</val>
@@ -1270,6 +1265,11 @@
 <font>0</font>
 <val>CESEQ-P001</val>
 </string_record>
+<string_record>
+<id>TITULO1</id>
+<font>0</font>
+<val>Nombre del Proyecto:</val>
+</string_record>
 </string_table>
 <widget>
 <type>window</type>
@@ -1314,9 +1314,9 @@
 <type>prompt</type>
 <app_name>TITULO2</app_name>
 <size>
-<left>10</left>
+<left>30</left>
 <top>35</top>
-<right>219</right>
+<right>239</right>
 <bottom>58</bottom>
 </size>
 <style>268439552</style>
@@ -1566,9 +1566,9 @@
 <type>prompt</type>
 <app_name>CRED2</app_name>
 <size>
-<left>10</left>
+<left>30</left>
 <top>265</top>
-<right>219</right>
+<right>239</right>
 <bottom>288</bottom>
 </size>
 <style>268439552</style>
@@ -1587,9 +1587,9 @@
 <type>prompt</type>
 <app_name>CRED3</app_name>
 <size>
-<left>10</left>
+<left>30</left>
 <top>290</top>
-<right>219</right>
+<right>239</right>
 <bottom>313</bottom>
 </size>
 <style>268439552</style>

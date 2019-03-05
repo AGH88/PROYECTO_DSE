@@ -6,7 +6,7 @@
 /*  site at www.expresslogic.com.                                              */
 /*                                                                             */
 /*  GUIX Studio Revision 5.4.1.1                                               */
-/*  Date (dd.mm.yyyy):  4. 3.2019   Time (hh:mm): 20:14                        */
+/*  Date (dd.mm.yyyy):  4. 3.2019   Time (hh:mm): 20:50                        */
 /*******************************************************************************/
 
 
@@ -76,25 +76,25 @@
 
 /* String Ids                                                                  */
 
-#define GX_STRING_ID_TITULO1 1
-#define GX_STRING_ID_TITULO2 2
-#define GX_STRING_ID_SUBT1 3
-#define GX_STRING_ID_SUBT2 4
-#define GX_STRING_ID_SUBT4 5
-#define GX_STRING_ID_UNIT1 6
-#define GX_STRING_ID_UNIT2 7
-#define GX_STRING_ID_SUBT3 8
-#define GX_STRING_ID_SUBT5 9
-#define GX_STRING_ID_CRED1 10
-#define GX_STRING_ID_CRED2 11
-#define GX_STRING_ID_CRED3 12
-#define GX_STRING_ID_UNIT3 13
-#define GX_STRING_ID_RESP1 14
-#define GX_STRING_ID_RESP2 15
-#define GX_STRING_ID_RESP3 16
-#define GX_STRING_ID_RESP4 17
-#define GX_STRING_ID_RESP5 18
-#define GX_STRING_ID_RESP6 19
+#define GX_STRING_ID_TITULO2 1
+#define GX_STRING_ID_SUBT1 2
+#define GX_STRING_ID_SUBT2 3
+#define GX_STRING_ID_SUBT4 4
+#define GX_STRING_ID_UNIT1 5
+#define GX_STRING_ID_UNIT2 6
+#define GX_STRING_ID_SUBT3 7
+#define GX_STRING_ID_SUBT5 8
+#define GX_STRING_ID_CRED1 9
+#define GX_STRING_ID_CRED2 10
+#define GX_STRING_ID_CRED3 11
+#define GX_STRING_ID_UNIT3 12
+#define GX_STRING_ID_RESP1 13
+#define GX_STRING_ID_RESP2 14
+#define GX_STRING_ID_RESP3 15
+#define GX_STRING_ID_RESP4 16
+#define GX_STRING_ID_RESP5 17
+#define GX_STRING_ID_RESP6 18
+#define GX_STRING_ID_TITULO1 19
 #define DISPLAY_1_STRING_TABLE_SIZE 20
 
 #endif                                       /* sentry                         */

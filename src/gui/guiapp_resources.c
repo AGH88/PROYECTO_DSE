@@ -6,7 +6,7 @@
 /*  site at www.expresslogic.com.                                              */
 /*                                                                             */
 /*  GUIX Studio Revision 5.4.1.1                                               */
-/*  Date (dd.mm.yyyy):  4. 3.2019   Time (hh:mm): 20:14                        */
+/*  Date (dd.mm.yyyy):  4. 3.2019   Time (hh:mm): 20:50                        */
 /*******************************************************************************/
 
 
@@ -323,7 +323,6 @@ GX_CONST GX_PIXELMAP *display_1_theme_1_pixelmap_table[] =
 
 /* String values                                                               */
 
-GX_CONST GX_UBYTE display_1_TITULO1_English[21] = "Nombre del proyecto:";
 GX_CONST GX_UBYTE display_1_TITULO2_English[22] = "Control Vel. Motor CD";
 GX_CONST GX_UBYTE display_1_SUBT1_English[12] = "Duty Cycle:";
 GX_CONST GX_UBYTE display_1_SUBT2_English[7] = "Speed:";
@@ -342,13 +341,13 @@ GX_CONST GX_UBYTE display_1_RESP3_English[4] = "333";
 GX_CONST GX_UBYTE display_1_RESP4_English[4] = "1.0";
 GX_CONST GX_UBYTE display_1_RESP5_English[12] = "CESEQ-C001/";
 GX_CONST GX_UBYTE display_1_RESP6_English[11] = "CESEQ-P001";
+GX_CONST GX_UBYTE display_1_TITULO1_English[21] = "Nombre del Proyecto:";
 
 /* String Table for display_1 language English                                 */
 
 GX_CONST GX_UBYTE *display_1_English_string_table[20] =
 {
     GX_NULL,
-    display_1_TITULO1_English,
     display_1_TITULO2_English,
     display_1_SUBT1_English,
     display_1_SUBT2_English,
@@ -366,7 +365,8 @@ GX_CONST GX_UBYTE *display_1_English_string_table[20] =
     display_1_RESP3_English,
     display_1_RESP4_English,
     display_1_RESP5_English,
-    display_1_RESP6_English
+    display_1_RESP6_English,
+    display_1_TITULO1_English
 
 };
 

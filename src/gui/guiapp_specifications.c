@@ -6,7 +6,7 @@
 /*  www.expresslogic.com.                                                      */
 /*                                                                             */
 /*  GUIX Studio Revision 5.4.1.1                                               */
-/*  Date (dd.mm.yyyy):  4. 3.2019   Time (hh:mm): 20:14                        */
+/*  Date (dd.mm.yyyy):  4. 3.2019   Time (hh:mm): 20:50                        */
 /*******************************************************************************/
 
 
@@ -298,7 +298,7 @@ GX_CONST GX_STUDIO_WIDGET window1_CRED3_define =
     gx_studio_prompt_create,                 /* create function                */
     GX_NULL,                                 /* drawing function override      */
     GX_NULL,                                 /* event function override        */
-    {10, 290, 219, 313},                     /* widget size                    */
+    {30, 290, 239, 313},                     /* widget size                    */
     &window1_RESP1_define,                   /* next widget definition         */
     GX_NULL,                                 /* no child widgets               */ 
     offsetof(WINDOW1_CONTROL_BLOCK, window1_CRED3), /* control block           */
@@ -321,7 +321,7 @@ GX_CONST GX_STUDIO_WIDGET window1_CRED2_define =
     gx_studio_prompt_create,                 /* create function                */
     GX_NULL,                                 /* drawing function override      */
     GX_NULL,                                 /* event function override        */
-    {10, 265, 219, 288},                     /* widget size                    */
+    {30, 265, 239, 288},                     /* widget size                    */
     &window1_CRED3_define,                   /* next widget definition         */
     GX_NULL,                                 /* no child widgets               */ 
     offsetof(WINDOW1_CONTROL_BLOCK, window1_CRED2), /* control block           */
@@ -597,7 +597,7 @@ GX_CONST GX_STUDIO_WIDGET window1_TITULO2_define =
     gx_studio_prompt_create,                 /* create function                */
     GX_NULL,                                 /* drawing function override      */
     GX_NULL,                                 /* event function override        */
-    {10, 35, 219, 58},                       /* widget size                    */
+    {30, 35, 239, 58},                       /* widget size                    */
     &window1_SUBT1_define,                   /* next widget definition         */
     GX_NULL,                                 /* no child widgets               */ 
     offsetof(WINDOW1_CONTROL_BLOCK, window1_TITULO2), /* control block         */

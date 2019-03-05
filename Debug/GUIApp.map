@@ -12351,71 +12351,71 @@ END GROUP
  .rodata.DISPLAY_1_THEME_1_CHECKBOX_OFF_pixelmap
                 0x0003bd68       0x1c ./src/gui/guiapp_resources.o
                 0x0003bd68                DISPLAY_1_THEME_1_CHECKBOX_OFF_pixelmap
- .rodata.display_1_TITULO1_English
-                0x0003bd84       0x15 ./src/gui/guiapp_resources.o
-                0x0003bd84                display_1_TITULO1_English
- *fill*         0x0003bd99        0x3 ff
  .rodata.display_1_TITULO2_English
-                0x0003bd9c       0x16 ./src/gui/guiapp_resources.o
-                0x0003bd9c                display_1_TITULO2_English
- *fill*         0x0003bdb2        0x2 ff
+                0x0003bd84       0x16 ./src/gui/guiapp_resources.o
+                0x0003bd84                display_1_TITULO2_English
+ *fill*         0x0003bd9a        0x2 ff
  .rodata.display_1_SUBT1_English
-                0x0003bdb4        0xc ./src/gui/guiapp_resources.o
-                0x0003bdb4                display_1_SUBT1_English
+                0x0003bd9c        0xc ./src/gui/guiapp_resources.o
+                0x0003bd9c                display_1_SUBT1_English
  .rodata.display_1_SUBT2_English
-                0x0003bdc0        0x7 ./src/gui/guiapp_resources.o
-                0x0003bdc0                display_1_SUBT2_English
- *fill*         0x0003bdc7        0x1 ff
+                0x0003bda8        0x7 ./src/gui/guiapp_resources.o
+                0x0003bda8                display_1_SUBT2_English
+ *fill*         0x0003bdaf        0x1 ff
  .rodata.display_1_SUBT4_English
-                0x0003bdc8        0xc ./src/gui/guiapp_resources.o
-                0x0003bdc8                display_1_SUBT4_English
+                0x0003bdb0        0xc ./src/gui/guiapp_resources.o
+                0x0003bdb0                display_1_SUBT4_English
  .rodata.display_1_UNIT1_English
-                0x0003bdd4        0x2 ./src/gui/guiapp_resources.o
-                0x0003bdd4                display_1_UNIT1_English
- *fill*         0x0003bdd6        0x2 ff
+                0x0003bdbc        0x2 ./src/gui/guiapp_resources.o
+                0x0003bdbc                display_1_UNIT1_English
+ *fill*         0x0003bdbe        0x2 ff
  .rodata.display_1_UNIT2_English
-                0x0003bdd8        0x4 ./src/gui/guiapp_resources.o
-                0x0003bdd8                display_1_UNIT2_English
+                0x0003bdc0        0x4 ./src/gui/guiapp_resources.o
+                0x0003bdc0                display_1_UNIT2_English
  .rodata.display_1_SUBT3_English
-                0x0003bddc        0xa ./src/gui/guiapp_resources.o
-                0x0003bddc                display_1_SUBT3_English
- *fill*         0x0003bde6        0x2 ff
+                0x0003bdc4        0xa ./src/gui/guiapp_resources.o
+                0x0003bdc4                display_1_SUBT3_English
+ *fill*         0x0003bdce        0x2 ff
  .rodata.display_1_SUBT5_English
-                0x0003bde8        0xc ./src/gui/guiapp_resources.o
-                0x0003bde8                display_1_SUBT5_English
+                0x0003bdd0        0xc ./src/gui/guiapp_resources.o
+                0x0003bdd0                display_1_SUBT5_English
  .rodata.display_1_CRED1_English
-                0x0003bdf4        0xf ./src/gui/guiapp_resources.o
-                0x0003bdf4                display_1_CRED1_English
- *fill*         0x0003be03        0x1 ff
+                0x0003bddc        0xf ./src/gui/guiapp_resources.o
+                0x0003bddc                display_1_CRED1_English
+ *fill*         0x0003bdeb        0x1 ff
  .rodata.display_1_CRED2_English
-                0x0003be04       0x11 ./src/gui/guiapp_resources.o
-                0x0003be04                display_1_CRED2_English
- *fill*         0x0003be15        0x3 ff
+                0x0003bdec       0x11 ./src/gui/guiapp_resources.o
+                0x0003bdec                display_1_CRED2_English
+ *fill*         0x0003bdfd        0x3 ff
  .rodata.display_1_CRED3_English
-                0x0003be18       0x10 ./src/gui/guiapp_resources.o
-                0x0003be18                display_1_CRED3_English
+                0x0003be00       0x10 ./src/gui/guiapp_resources.o
+                0x0003be00                display_1_CRED3_English
  .rodata.display_1_UNIT3_English
-                0x0003be28        0x4 ./src/gui/guiapp_resources.o
-                0x0003be28                display_1_UNIT3_English
+                0x0003be10        0x4 ./src/gui/guiapp_resources.o
+                0x0003be10                display_1_UNIT3_English
  .rodata.display_1_RESP1_English
-                0x0003be2c        0x4 ./src/gui/guiapp_resources.o
-                0x0003be2c                display_1_RESP1_English
+                0x0003be14        0x4 ./src/gui/guiapp_resources.o
+                0x0003be14                display_1_RESP1_English
  .rodata.display_1_RESP2_English
-                0x0003be30        0x4 ./src/gui/guiapp_resources.o
-                0x0003be30                display_1_RESP2_English
+                0x0003be18        0x4 ./src/gui/guiapp_resources.o
+                0x0003be18                display_1_RESP2_English
  .rodata.display_1_RESP3_English
-                0x0003be34        0x4 ./src/gui/guiapp_resources.o
-                0x0003be34                display_1_RESP3_English
+                0x0003be1c        0x4 ./src/gui/guiapp_resources.o
+                0x0003be1c                display_1_RESP3_English
  .rodata.display_1_RESP4_English
-                0x0003be38        0x4 ./src/gui/guiapp_resources.o
-                0x0003be38                display_1_RESP4_English
+                0x0003be20        0x4 ./src/gui/guiapp_resources.o
+                0x0003be20                display_1_RESP4_English
  .rodata.display_1_RESP5_English
-                0x0003be3c        0xc ./src/gui/guiapp_resources.o
-                0x0003be3c                display_1_RESP5_English
+                0x0003be24        0xc ./src/gui/guiapp_resources.o
+                0x0003be24                display_1_RESP5_English
  .rodata.display_1_RESP6_English
-                0x0003be48        0xb ./src/gui/guiapp_resources.o
-                0x0003be48                display_1_RESP6_English
- *fill*         0x0003be53        0x1 ff
+                0x0003be30        0xb ./src/gui/guiapp_resources.o
+                0x0003be30                display_1_RESP6_English
+ *fill*         0x0003be3b        0x1 ff
+ .rodata.display_1_TITULO1_English
+                0x0003be3c       0x15 ./src/gui/guiapp_resources.o
+                0x0003be3c                display_1_TITULO1_English
+ *fill*         0x0003be51        0x3 ff
  .rodata        0x0003be54       0xbd ./src/gui/guiapp_specifications.o
  *fill*         0x0003bf11        0x3 ff
  .rodata.window1_RESP6_define
