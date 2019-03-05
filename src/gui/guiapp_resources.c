@@ -6,7 +6,7 @@
 /*  site at www.expresslogic.com.                                              */
 /*                                                                             */
 /*  GUIX Studio Revision 5.4.1.1                                               */
-/*  Date (dd.mm.yyyy): 23. 2.2019   Time (hh:mm): 09:50                        */
+/*  Date (dd.mm.yyyy):  4. 3.2019   Time (hh:mm): 20:14                        */
 /*******************************************************************************/
 
 
@@ -323,28 +323,50 @@ GX_CONST GX_PIXELMAP *display_1_theme_1_pixelmap_table[] =
 
 /* String values                                                               */
 
-GX_CONST GX_UBYTE display_1_BUTTON_DISABLED_English[18] = "Stay in windows 1";
-GX_CONST GX_UBYTE display_1_CHECKBOX_TEXT_English[12] = "Press Me!\r";
-GX_CONST GX_UBYTE display_1_HELLO_WORLD_English[25] = "Hello World (to window1)";
-GX_CONST GX_UBYTE display_1_BUTTON_ENABLED_English[15] = "Goto windows 2";
-GX_CONST GX_UBYTE display_1_INSTRUCT_CHECKBOX_English[29] = "Press \"Press Me!\" for more";
-GX_CONST GX_UBYTE display_1_WINDOWS1_English[9] = "Windows1";
-GX_CONST GX_UBYTE display_1_WINDOWS2_English[9] = "Windows2";
-GX_CONST GX_UBYTE display_1_INSTRUCT_BUTTON_English[25] = "Press to go to windows 2";
+GX_CONST GX_UBYTE display_1_TITULO1_English[21] = "Nombre del proyecto:";
+GX_CONST GX_UBYTE display_1_TITULO2_English[22] = "Control Vel. Motor CD";
+GX_CONST GX_UBYTE display_1_SUBT1_English[12] = "Duty Cycle:";
+GX_CONST GX_UBYTE display_1_SUBT2_English[7] = "Speed:";
+GX_CONST GX_UBYTE display_1_SUBT4_English[12] = "SW Version:";
+GX_CONST GX_UBYTE display_1_UNIT1_English[2] = "%";
+GX_CONST GX_UBYTE display_1_UNIT2_English[4] = "RPM";
+GX_CONST GX_UBYTE display_1_SUBT3_English[10] = "Setpoint:";
+GX_CONST GX_UBYTE display_1_SUBT5_English[12] = "HW Version:";
+GX_CONST GX_UBYTE display_1_CRED1_English[15] = "Programadores:";
+GX_CONST GX_UBYTE display_1_CRED2_English[17] = "Gomez, Alejandro";
+GX_CONST GX_UBYTE display_1_CRED3_English[16] = "Aguilar, Felipe";
+GX_CONST GX_UBYTE display_1_UNIT3_English[4] = "RPM";
+GX_CONST GX_UBYTE display_1_RESP1_English[4] = "111";
+GX_CONST GX_UBYTE display_1_RESP2_English[4] = "222";
+GX_CONST GX_UBYTE display_1_RESP3_English[4] = "333";
+GX_CONST GX_UBYTE display_1_RESP4_English[4] = "1.0";
+GX_CONST GX_UBYTE display_1_RESP5_English[12] = "CESEQ-C001/";
+GX_CONST GX_UBYTE display_1_RESP6_English[11] = "CESEQ-P001";
 
 /* String Table for display_1 language English                                 */
 
-GX_CONST GX_UBYTE *display_1_English_string_table[9] =
+GX_CONST GX_UBYTE *display_1_English_string_table[20] =
 {
     GX_NULL,
-    display_1_BUTTON_DISABLED_English,
-    display_1_CHECKBOX_TEXT_English,
-    display_1_HELLO_WORLD_English,
-    display_1_BUTTON_ENABLED_English,
-    display_1_INSTRUCT_CHECKBOX_English,
-    display_1_WINDOWS1_English,
-    display_1_WINDOWS2_English,
-    display_1_INSTRUCT_BUTTON_English
+    display_1_TITULO1_English,
+    display_1_TITULO2_English,
+    display_1_SUBT1_English,
+    display_1_SUBT2_English,
+    display_1_SUBT4_English,
+    display_1_UNIT1_English,
+    display_1_UNIT2_English,
+    display_1_SUBT3_English,
+    display_1_SUBT5_English,
+    display_1_CRED1_English,
+    display_1_CRED2_English,
+    display_1_CRED3_English,
+    display_1_UNIT3_English,
+    display_1_RESP1_English,
+    display_1_RESP2_English,
+    display_1_RESP3_English,
+    display_1_RESP4_English,
+    display_1_RESP5_English,
+    display_1_RESP6_English
 
 };
 

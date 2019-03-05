@@ -6,7 +6,7 @@
 /*  www.expresslogic.com.                                                      */
 /*                                                                             */
 /*  GUIX Studio Revision 5.4.1.1                                               */
-/*  Date (dd.mm.yyyy): 23. 2.2019   Time (hh:mm): 09:50                        */
+/*  Date (dd.mm.yyyy):  4. 3.2019   Time (hh:mm): 20:14                        */
 /*******************************************************************************/
 
 
@@ -22,13 +22,7 @@ extern   "C" {
 
 /* Define widget ids                                                           */
 
-#define ID_WINDOW2 1
-#define ID_WINDOW2_TEXT 2
-#define ID_WINDOW1 3
-#define ID_WINDOWCHANGER 4
-#define ID_BUTTONENABLER 5
-#define ID_INSTRUCTIONS 6
-#define ID_WINDOW1_TEXT 7
+#define ID_WINDOW1 1
 
 
 /* Declare properties structures for each utilized widget type                 */
@@ -68,26 +62,6 @@ typedef struct
     GX_RESOURCE_ID font_id;
     GX_RESOURCE_ID normal_text_color_id;
     GX_RESOURCE_ID selected_text_color_id;
-} GX_TEXT_BUTTON_PROPERTIES;
-
-typedef struct
-{
-    GX_RESOURCE_ID string_id;
-    GX_RESOURCE_ID font_id;
-    GX_RESOURCE_ID normal_text_color_id;
-    GX_RESOURCE_ID selected_text_color_id;
-    GX_RESOURCE_ID unchecked_pixelmap_id;
-    GX_RESOURCE_ID checked_pixelmap_id;
-    GX_RESOURCE_ID unchecked_disabled_pixelmap_id;
-    GX_RESOURCE_ID checked_disabled_pixelmap_id;
-} GX_CHECKBOX_PROPERTIES;
-
-typedef struct
-{
-    GX_RESOURCE_ID string_id;
-    GX_RESOURCE_ID font_id;
-    GX_RESOURCE_ID normal_text_color_id;
-    GX_RESOURCE_ID selected_text_color_id;
 } GX_PROMPT_PROPERTIES;
 
 typedef struct
@@ -98,27 +72,34 @@ typedef struct
 
 /* Declare top-level control blocks                                            */
 
-typedef struct WINDOW2_CONTROL_BLOCK_STRUCT
-{
-    GX_WINDOW_MEMBERS_DECLARE
-    GX_PROMPT window2_hellotext;
-    GX_PROMPT window2_window2_text;
-} WINDOW2_CONTROL_BLOCK;
-
 typedef struct WINDOW1_CONTROL_BLOCK_STRUCT
 {
     GX_WINDOW_MEMBERS_DECLARE
-    GX_TEXT_BUTTON window1_windowchanger;
-    GX_CHECKBOX window1_buttonenabler;
-    GX_PROMPT window1_instructions;
-    GX_PROMPT window1_window1_text;
+    GX_PROMPT window1_TITULO1;
+    GX_PROMPT window1_TITULO2;
+    GX_PROMPT window1_SUBT1;
+    GX_PROMPT window1_SUBT2;
+    GX_PROMPT window1_SUBT3;
+    GX_PROMPT window1_UNIT1;
+    GX_PROMPT window1_UNIT2;
+    GX_PROMPT window1_UNIT3;
+    GX_PROMPT window1_SUBT4;
+    GX_PROMPT window1_RESP4;
+    GX_PROMPT window1_SUBT5;
+    GX_PROMPT window1_RESP5;
+    GX_PROMPT window1_CRED1;
+    GX_PROMPT window1_CRED2;
+    GX_PROMPT window1_CRED3;
+    GX_PROMPT window1_RESP1;
+    GX_PROMPT window1_RESP2;
+    GX_PROMPT window1_RESP3;
+    GX_PROMPT window1_RESP6;
 } WINDOW1_CONTROL_BLOCK;
 
 
 /* extern statically defined control blocks                                    */
 
 #ifndef GUIX_STUDIO_GENERATED_FILE
-extern WINDOW2_CONTROL_BLOCK window2;
 extern WINDOW1_CONTROL_BLOCK window1;
 #endif
 
@@ -183,7 +164,6 @@ VOID _gx_synergy_jpeg_draw (GX_DRAW_CONTEXT *p_context, INT x, INT y, GX_PIXELMA
 
 /* Declare event process functions, draw functions, and callback functions     */
 
-UINT window2_handler(GX_WINDOW *widget, GX_EVENT *event_ptr);
 UINT window1_handler(GX_WINDOW *widget, GX_EVENT *event_ptr);
 
 /* Declare the GX_STUDIO_DISPLAY_INFO structure                                */
@@ -210,8 +190,6 @@ typedef struct GX_STUDIO_DISPLAY_INFO_STRUCT
 
 /* Declare Studio-generated functions for creating top-level widgets           */
 
-UINT gx_studio_text_button_create(GX_CONST GX_STUDIO_WIDGET *info, GX_WIDGET *control_block, GX_WIDGET *parent);
-UINT gx_studio_checkbox_create(GX_CONST GX_STUDIO_WIDGET *info, GX_WIDGET *control_block, GX_WIDGET *parent);
 UINT gx_studio_prompt_create(GX_CONST GX_STUDIO_WIDGET *info, GX_WIDGET *control_block, GX_WIDGET *parent);
 UINT gx_studio_window_create(GX_CONST GX_STUDIO_WIDGET *info, GX_WIDGET *control_block, GX_WIDGET *parent);
 GX_WIDGET *gx_studio_widget_create(GX_BYTE *storage, GX_CONST GX_STUDIO_WIDGET *definition, GX_WIDGET *parent);

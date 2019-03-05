@@ -1,16 +1,11 @@
-
-
 #include <main_thread.h>
 #include "gui/guiapp_resources.h"
 #include "gui/guiapp_specifications.h"
 
-
-static bool button_enabled = false;
-
+/*static bool button_enabled = false;
 extern GX_WINDOW_ROOT * p_window_root;
-
 static UINT show_window(GX_WINDOW * p_new, GX_WIDGET * p_widget, bool detach_old);
-static void update_text_id(GX_WIDGET * p_widget, GX_RESOURCE_ID id, UINT string_id);
+static void update_text_id(GX_WIDGET * p_widget, GX_RESOURCE_ID id, UINT string_id);*/
 
 UINT window1_handler(GX_WINDOW *widget, GX_EVENT *event_ptr)
 {
@@ -18,7 +13,7 @@ UINT window1_handler(GX_WINDOW *widget, GX_EVENT *event_ptr)
 
     switch (event_ptr->gx_event_type)
     {
-    case GX_SIGNAL(ID_BUTTONENABLER, GX_EVENT_TOGGLE_ON):
+    /*case GX_SIGNAL(ID_BUTTONENABLER, GX_EVENT_TOGGLE_ON):
         button_enabled = true;
         update_text_id(widget->gx_widget_parent, ID_WINDOWCHANGER, GX_STRING_ID_BUTTON_ENABLED);
         update_text_id(widget->gx_widget_parent, ID_INSTRUCTIONS, GX_STRING_ID_INSTRUCT_BUTTON);
@@ -35,13 +30,13 @@ UINT window1_handler(GX_WINDOW *widget, GX_EVENT *event_ptr)
         break;
     default:
         gx_window_event_process(widget, event_ptr);
-        break;
+        break;*/
     }
 
     return result;
 }
 
-UINT window2_handler(GX_WINDOW *widget, GX_EVENT *event_ptr)
+/*UINT window2_handler(GX_WINDOW *widget, GX_EVENT *event_ptr)
 {
     UINT result = gx_window_event_process(widget, event_ptr);
 
@@ -54,9 +49,9 @@ UINT window2_handler(GX_WINDOW *widget, GX_EVENT *event_ptr)
             break;
     }
     return result;
-}
+}*/
 
-static UINT show_window(GX_WINDOW * p_new, GX_WIDGET * p_widget, bool detach_old)
+/*static UINT show_window(GX_WINDOW * p_new, GX_WIDGET * p_widget, bool detach_old)
 {
     UINT err = GX_SUCCESS;
 
@@ -81,9 +76,9 @@ static UINT show_window(GX_WINDOW * p_new, GX_WIDGET * p_widget, bool detach_old
     }
 
     return err;
-}
+}*/
 
-static void update_text_id(GX_WIDGET * p_widget, GX_RESOURCE_ID id, UINT string_id)
+/*static void update_text_id(GX_WIDGET * p_widget, GX_RESOURCE_ID id, UINT string_id)
 {
     GX_PROMPT * p_prompt = NULL;
 
@@ -92,5 +87,5 @@ static void update_text_id(GX_WIDGET * p_widget, GX_RESOURCE_ID id, UINT string_
     {
         gx_prompt_text_id_set(p_prompt, string_id);
     }
-}
+}*/
 
