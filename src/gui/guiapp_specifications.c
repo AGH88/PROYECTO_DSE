@@ -6,7 +6,7 @@
 /*  www.expresslogic.com.                                                      */
 /*                                                                             */
 /*  GUIX Studio Revision 5.4.1.1                                               */
-/*  Date (dd.mm.yyyy):  4. 3.2019   Time (hh:mm): 20:50                        */
+/*  Date (dd.mm.yyyy):  8. 3.2019   Time (hh:mm): 12:13                        */
 /*******************************************************************************/
 
 
@@ -194,7 +194,7 @@ GX_CONST GX_STUDIO_WIDGET window1_RESP6_define =
 {
     "RESP6",
     GX_TYPE_PROMPT,                          /* widget type                    */
-    GX_ID_NONE,                              /* widget id                      */
+    ID_RESP6,                                /* widget id                      */
     #if defined(GX_WIDGET_USER_DATA)
     0,                                       /* user data                      */
     #endif
@@ -217,7 +217,7 @@ GX_CONST GX_STUDIO_WIDGET window1_RESP3_define =
 {
     "RESP3",
     GX_TYPE_PROMPT,                          /* widget type                    */
-    GX_ID_NONE,                              /* widget id                      */
+    ID_RESP3,                                /* widget id                      */
     #if defined(GX_WIDGET_USER_DATA)
     0,                                       /* user data                      */
     #endif
@@ -240,7 +240,7 @@ GX_CONST GX_STUDIO_WIDGET window1_RESP2_define =
 {
     "RESP2",
     GX_TYPE_PROMPT,                          /* widget type                    */
-    GX_ID_NONE,                              /* widget id                      */
+    ID_RESP2,                                /* widget id                      */
     #if defined(GX_WIDGET_USER_DATA)
     0,                                       /* user data                      */
     #endif
@@ -263,7 +263,7 @@ GX_CONST GX_STUDIO_WIDGET window1_RESP1_define =
 {
     "RESP1",
     GX_TYPE_PROMPT,                          /* widget type                    */
-    GX_ID_NONE,                              /* widget id                      */
+    ID_RESP1,                                /* widget id                      */
     #if defined(GX_WIDGET_USER_DATA)
     0,                                       /* user data                      */
     #endif
@@ -286,7 +286,7 @@ GX_CONST GX_STUDIO_WIDGET window1_CRED3_define =
 {
     "CRED3",
     GX_TYPE_PROMPT,                          /* widget type                    */
-    GX_ID_NONE,                              /* widget id                      */
+    ID_CRED3,                                /* widget id                      */
     #if defined(GX_WIDGET_USER_DATA)
     0,                                       /* user data                      */
     #endif
@@ -309,7 +309,7 @@ GX_CONST GX_STUDIO_WIDGET window1_CRED2_define =
 {
     "CRED2",
     GX_TYPE_PROMPT,                          /* widget type                    */
-    GX_ID_NONE,                              /* widget id                      */
+    ID_CRED2,                                /* widget id                      */
     #if defined(GX_WIDGET_USER_DATA)
     0,                                       /* user data                      */
     #endif
@@ -332,7 +332,7 @@ GX_CONST GX_STUDIO_WIDGET window1_CRED1_define =
 {
     "CRED1",
     GX_TYPE_PROMPT,                          /* widget type                    */
-    GX_ID_NONE,                              /* widget id                      */
+    ID_CRED1,                                /* widget id                      */
     #if defined(GX_WIDGET_USER_DATA)
     0,                                       /* user data                      */
     #endif
@@ -355,7 +355,7 @@ GX_CONST GX_STUDIO_WIDGET window1_RESP5_define =
 {
     "RESP5",
     GX_TYPE_PROMPT,                          /* widget type                    */
-    GX_ID_NONE,                              /* widget id                      */
+    ID_RESP5,                                /* widget id                      */
     #if defined(GX_WIDGET_USER_DATA)
     0,                                       /* user data                      */
     #endif
@@ -378,7 +378,7 @@ GX_CONST GX_STUDIO_WIDGET window1_SUBT5_define =
 {
     "SUBT5",
     GX_TYPE_PROMPT,                          /* widget type                    */
-    GX_ID_NONE,                              /* widget id                      */
+    ID_SUBT5,                                /* widget id                      */
     #if defined(GX_WIDGET_USER_DATA)
     0,                                       /* user data                      */
     #endif
@@ -401,7 +401,7 @@ GX_CONST GX_STUDIO_WIDGET window1_RESP4_define =
 {
     "RESP4",
     GX_TYPE_PROMPT,                          /* widget type                    */
-    GX_ID_NONE,                              /* widget id                      */
+    ID_RESP4,                                /* widget id                      */
     #if defined(GX_WIDGET_USER_DATA)
     0,                                       /* user data                      */
     #endif
@@ -424,7 +424,7 @@ GX_CONST GX_STUDIO_WIDGET window1_SUBT4_define =
 {
     "SUBT4",
     GX_TYPE_PROMPT,                          /* widget type                    */
-    GX_ID_NONE,                              /* widget id                      */
+    ID_SUBT4,                                /* widget id                      */
     #if defined(GX_WIDGET_USER_DATA)
     0,                                       /* user data                      */
     #endif
@@ -447,7 +447,7 @@ GX_CONST GX_STUDIO_WIDGET window1_UNIT3_define =
 {
     "UNIT3",
     GX_TYPE_PROMPT,                          /* widget type                    */
-    GX_ID_NONE,                              /* widget id                      */
+    ID_UNIT3,                                /* widget id                      */
     #if defined(GX_WIDGET_USER_DATA)
     0,                                       /* user data                      */
     #endif
@@ -470,7 +470,7 @@ GX_CONST GX_STUDIO_WIDGET window1_UNIT2_define =
 {
     "UNIT2",
     GX_TYPE_PROMPT,                          /* widget type                    */
-    GX_ID_NONE,                              /* widget id                      */
+    ID_UNIT2,                                /* widget id                      */
     #if defined(GX_WIDGET_USER_DATA)
     0,                                       /* user data                      */
     #endif
@@ -493,7 +493,7 @@ GX_CONST GX_STUDIO_WIDGET window1_UNIT1_define =
 {
     "UNIT1",
     GX_TYPE_PROMPT,                          /* widget type                    */
-    GX_ID_NONE,                              /* widget id                      */
+    ID_UNIT1,                                /* widget id                      */
     #if defined(GX_WIDGET_USER_DATA)
     0,                                       /* user data                      */
     #endif
@@ -516,7 +516,7 @@ GX_CONST GX_STUDIO_WIDGET window1_SUBT3_define =
 {
     "SUBT3",
     GX_TYPE_PROMPT,                          /* widget type                    */
-    GX_ID_NONE,                              /* widget id                      */
+    ID_SUBT3,                                /* widget id                      */
     #if defined(GX_WIDGET_USER_DATA)
     0,                                       /* user data                      */
     #endif
@@ -539,7 +539,7 @@ GX_CONST GX_STUDIO_WIDGET window1_SUBT2_define =
 {
     "SUBT2",
     GX_TYPE_PROMPT,                          /* widget type                    */
-    GX_ID_NONE,                              /* widget id                      */
+    ID_SUBT2,                                /* widget id                      */
     #if defined(GX_WIDGET_USER_DATA)
     0,                                       /* user data                      */
     #endif
@@ -562,7 +562,7 @@ GX_CONST GX_STUDIO_WIDGET window1_SUBT1_define =
 {
     "SUBT1",
     GX_TYPE_PROMPT,                          /* widget type                    */
-    GX_ID_NONE,                              /* widget id                      */
+    ID_SUBT1,                                /* widget id                      */
     #if defined(GX_WIDGET_USER_DATA)
     0,                                       /* user data                      */
     #endif
@@ -585,7 +585,7 @@ GX_CONST GX_STUDIO_WIDGET window1_TITULO2_define =
 {
     "TITULO2",
     GX_TYPE_PROMPT,                          /* widget type                    */
-    GX_ID_NONE,                              /* widget id                      */
+    ID_TITULO2,                              /* widget id                      */
     #if defined(GX_WIDGET_USER_DATA)
     0,                                       /* user data                      */
     #endif
@@ -608,7 +608,7 @@ GX_CONST GX_STUDIO_WIDGET window1_TITULO1_define =
 {
     "TITULO1",
     GX_TYPE_PROMPT,                          /* widget type                    */
-    GX_ID_NONE,                              /* widget id                      */
+    ID_TITULO1,                              /* widget id                      */
     #if defined(GX_WIDGET_USER_DATA)
     0,                                       /* user data                      */
     #endif

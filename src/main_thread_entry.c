@@ -12,8 +12,8 @@
 /***********************************************************************************************************************
     Private function prototypes
  ***********************************************************************************************************************/
-static bool ssp_touch_to_guix(sf_touch_panel_payload_t * p_touch_payload, GX_EVENT * g_gx_event);
 void main_thread_entry(void);
+static bool ssp_touch_to_guix(sf_touch_panel_payload_t * p_touch_payload, GX_EVENT * g_gx_event);
 
 #if defined(BSP_BOARD_S7G2_SK)
 void g_lcd_spi_callback(spi_callback_args_t * p_args);
@@ -23,8 +23,8 @@ void g_lcd_spi_callback(spi_callback_args_t * p_args);
     Private global variables
  ***********************************************************************************************************************/
 static GX_EVENT g_gx_event;
-
 GX_WINDOW_ROOT * p_window_root;
+
 extern GX_CONST GX_STUDIO_WIDGET *guiapp_widget_table[];
 
 /*******************************************************************************************************************//**
@@ -85,7 +85,7 @@ void main_thread_entry(void) {
 
     if(TX_SUCCESS != status)
     {
-            while(1);
+        while(1);
     }
 
     /* Shows the root window to make it and patients screen visible. */
@@ -215,19 +215,17 @@ static bool ssp_touch_to_guix(sf_touch_panel_payload_t * p_touch_payload, GX_EVE
 		gx_event->gx_event_payload.gx_event_pointdata.gx_point_x = p_touch_payload->x;
 
 #if defined(BSP_BOARD_S7G2_SK)
-		gx_event->gx_event_payload.gx_event_pointdata.gx_point_y = (320 - p_touch_payload->y);  // SK-S7G2
+        gx_event->gx_event_payload.gx_event_pointdata.gx_point_y = (GX_VALUE)(320 - p_touch_payload->y);  // SK-S7G2
 #else
-		gx_event->gx_event_payload.gx_event_pointdata.gx_point_y = p_touch_payload->y;  // DK-S7G2, PE-HMI1
+        gx_event->gx_event_payload.gx_event_pointdata.gx_point_y = p_touch_payload->y;  // DK-S7G2, PE-HMI1
 #endif
-	}
+    }
 
-	return send_event;
+    return send_event;
 }
 
-#if defined(BSP_BOARD_S7G2_SK)
-void g_lcd_spi_callback(spi_callback_args_t * p_args)
+void g_lcd_spi_callback (spi_callback_args_t * p_args)
 {
-    (void)p_args;
-    tx_semaphore_ceiling_put(&g_main_semaphore_lcdc, 1);
+    if(SPI_EVENT_TRANSFER_COMPLETE == p_args->event)
+        tx_semaphore_ceiling_put(&g_main_semaphore_lcdc, 1);
 }
-#endif

@@ -6,7 +6,7 @@
 /*  www.expresslogic.com.                                                      */
 /*                                                                             */
 /*  GUIX Studio Revision 5.4.1.1                                               */
-/*  Date (dd.mm.yyyy):  4. 3.2019   Time (hh:mm): 20:50                        */
+/*  Date (dd.mm.yyyy):  8. 3.2019   Time (hh:mm): 12:13                        */
 /*******************************************************************************/
 
 
@@ -23,6 +23,25 @@ extern   "C" {
 /* Define widget ids                                                           */
 
 #define ID_WINDOW1 1
+#define ID_TITULO1 2
+#define ID_TITULO2 3
+#define ID_SUBT1 4
+#define ID_SUBT2 5
+#define ID_SUBT3 6
+#define ID_UNIT1 7
+#define ID_UNIT2 8
+#define ID_UNIT3 9
+#define ID_SUBT4 10
+#define ID_RESP4 11
+#define ID_SUBT5 12
+#define ID_RESP5 13
+#define ID_CRED1 14
+#define ID_CRED2 15
+#define ID_CRED3 16
+#define ID_RESP1 17
+#define ID_RESP2 18
+#define ID_RESP3 19
+#define ID_RESP6 20
 
 
 /* Declare properties structures for each utilized widget type                 */

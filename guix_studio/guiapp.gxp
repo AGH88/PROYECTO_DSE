@@ -1303,6 +1303,7 @@
 <accepts_focus>TRUE</accepts_focus>
 <normal_fill_color>WIDGET_FILL</normal_fill_color>
 <selected_fill_color>SELECTED_FILL</selected_fill_color>
+<id_name>ID_TITULO1</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
 <string_id>TITULO1</string_id>
@@ -1324,6 +1325,7 @@
 <accepts_focus>TRUE</accepts_focus>
 <normal_fill_color>WIDGET_FILL</normal_fill_color>
 <selected_fill_color>SELECTED_FILL</selected_fill_color>
+<id_name>ID_TITULO2</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
 <string_id>TITULO2</string_id>
@@ -1345,6 +1347,7 @@
 <accepts_focus>TRUE</accepts_focus>
 <normal_fill_color>WIDGET_FILL</normal_fill_color>
 <selected_fill_color>SELECTED_FILL</selected_fill_color>
+<id_name>ID_SUBT1</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
 <string_id>SUBT1</string_id>
@@ -1366,6 +1369,7 @@
 <accepts_focus>TRUE</accepts_focus>
 <normal_fill_color>WIDGET_FILL</normal_fill_color>
 <selected_fill_color>SELECTED_FILL</selected_fill_color>
+<id_name>ID_SUBT2</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
 <string_id>SUBT2</string_id>
@@ -1387,6 +1391,7 @@
 <accepts_focus>TRUE</accepts_focus>
 <normal_fill_color>WIDGET_FILL</normal_fill_color>
 <selected_fill_color>SELECTED_FILL</selected_fill_color>
+<id_name>ID_SUBT3</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
 <string_id>SUBT3</string_id>
@@ -1408,6 +1413,7 @@
 <accepts_focus>TRUE</accepts_focus>
 <normal_fill_color>WIDGET_FILL</normal_fill_color>
 <selected_fill_color>SELECTED_FILL</selected_fill_color>
+<id_name>ID_UNIT1</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
 <string_id>UNIT1</string_id>
@@ -1429,6 +1435,7 @@
 <accepts_focus>TRUE</accepts_focus>
 <normal_fill_color>WIDGET_FILL</normal_fill_color>
 <selected_fill_color>SELECTED_FILL</selected_fill_color>
+<id_name>ID_UNIT2</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
 <string_id>UNIT2</string_id>
@@ -1450,6 +1457,7 @@
 <accepts_focus>TRUE</accepts_focus>
 <normal_fill_color>WIDGET_FILL</normal_fill_color>
 <selected_fill_color>SELECTED_FILL</selected_fill_color>
+<id_name>ID_UNIT3</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
 <string_id>UNIT3</string_id>
@@ -1471,6 +1479,7 @@
 <accepts_focus>TRUE</accepts_focus>
 <normal_fill_color>WIDGET_FILL</normal_fill_color>
 <selected_fill_color>SELECTED_FILL</selected_fill_color>
+<id_name>ID_SUBT4</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
 <string_id>SUBT4</string_id>
@@ -1492,6 +1501,7 @@
 <accepts_focus>TRUE</accepts_focus>
 <normal_fill_color>WIDGET_FILL</normal_fill_color>
 <selected_fill_color>SELECTED_FILL</selected_fill_color>
+<id_name>ID_RESP4</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
 <string_id>RESP4</string_id>
@@ -1513,6 +1523,7 @@
 <accepts_focus>TRUE</accepts_focus>
 <normal_fill_color>WIDGET_FILL</normal_fill_color>
 <selected_fill_color>SELECTED_FILL</selected_fill_color>
+<id_name>ID_SUBT5</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
 <string_id>SUBT5</string_id>
@@ -1534,6 +1545,7 @@
 <accepts_focus>TRUE</accepts_focus>
 <normal_fill_color>WIDGET_FILL</normal_fill_color>
 <selected_fill_color>SELECTED_FILL</selected_fill_color>
+<id_name>ID_RESP5</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
 <string_id>RESP5</string_id>
@@ -1555,6 +1567,7 @@
 <accepts_focus>TRUE</accepts_focus>
 <normal_fill_color>WIDGET_FILL</normal_fill_color>
 <selected_fill_color>SELECTED_FILL</selected_fill_color>
+<id_name>ID_CRED1</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
 <string_id>CRED1</string_id>
@@ -1576,6 +1589,7 @@
 <accepts_focus>TRUE</accepts_focus>
 <normal_fill_color>WIDGET_FILL</normal_fill_color>
 <selected_fill_color>SELECTED_FILL</selected_fill_color>
+<id_name>ID_CRED2</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
 <string_id>CRED2</string_id>
@@ -1597,6 +1611,7 @@
 <accepts_focus>TRUE</accepts_focus>
 <normal_fill_color>WIDGET_FILL</normal_fill_color>
 <selected_fill_color>SELECTED_FILL</selected_fill_color>
+<id_name>ID_CRED3</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
 <string_id>CRED3</string_id>
@@ -1618,6 +1633,7 @@
 <accepts_focus>TRUE</accepts_focus>
 <normal_fill_color>WIDGET_FILL</normal_fill_color>
 <selected_fill_color>SELECTED_FILL</selected_fill_color>
+<id_name>ID_RESP1</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
 <string_id>RESP1</string_id>
@@ -1639,6 +1655,7 @@
 <accepts_focus>TRUE</accepts_focus>
 <normal_fill_color>WIDGET_FILL</normal_fill_color>
 <selected_fill_color>SELECTED_FILL</selected_fill_color>
+<id_name>ID_RESP2</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
 <string_id>RESP2</string_id>
@@ -1660,6 +1677,7 @@
 <accepts_focus>TRUE</accepts_focus>
 <normal_fill_color>WIDGET_FILL</normal_fill_color>
 <selected_fill_color>SELECTED_FILL</selected_fill_color>
+<id_name>ID_RESP3</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
 <string_id>RESP3</string_id>
@@ -1681,6 +1699,7 @@
 <accepts_focus>TRUE</accepts_focus>
 <normal_fill_color>WIDGET_FILL</normal_fill_color>
 <selected_fill_color>SELECTED_FILL</selected_fill_color>
+<id_name>ID_RESP6</id_name>
 <template>FALSE</template>
 <visible_at_startup>FALSE</visible_at_startup>
 <string_id>RESP6</string_id>

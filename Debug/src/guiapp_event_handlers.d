@@ -1,5 +1,11 @@
 src/guiapp_event_handlers.o: ../src/guiapp_event_handlers.c \
- C:\Users\Alejandro\e2_studio\workspace\GUIApp\src\synergy_gen/main_thread.h \
+ ../src/gui/guiapp_resources.h \
+ C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/gx_api.h \
+ C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/tx_api.h \
+ C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/tx_port.h \
+ c:\users\alejandro\e2_studio\workspace\guiapp\synergy\ssp\inc\framework\el\cm4_gcc\tx_port.h \
+ C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy_cfg\ssp_cfg\framework\el/tx_user.h \
+ C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/tx_cmsis.h \
  C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\bsp/bsp_api.h \
  c:\users\alejandro\e2_studio\workspace\guiapp\synergy\ssp\inc\ssp_common_api.h \
  c:\users\alejandro\e2_studio\workspace\guiapp\synergy\ssp\inc\ssp_version.h \
@@ -44,11 +50,11 @@ src/guiapp_event_handlers.o: ../src/guiapp_event_handlers.c \
  c:\users\alejandro\e2_studio\workspace\guiapp\synergy\ssp\src\bsp\mcu\all\bsp_feature.h \
  c:\users\alejandro\e2_studio\workspace\guiapp\synergy\ssp\src\bsp\mcu\all\bsp_mcu_api.h \
  c:\users\alejandro\e2_studio\workspace\guiapp\synergy\ssp\src\bsp\mcu\all\bsp_error_checking.h \
+ C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/gx_port.h \
+ C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy_cfg\ssp_cfg\framework\el/gx_user.h \
+ ../src/gui/guiapp_specifications.h \
+ C:\Users\Alejandro\e2_studio\workspace\GUIApp\src\synergy_gen/main_thread.h \
  C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/tx_api.h \
- C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/tx_port.h \
- c:\users\alejandro\e2_studio\workspace\guiapp\synergy\ssp\inc\framework\el\cm4_gcc\tx_port.h \
- C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy_cfg\ssp_cfg\framework\el/tx_user.h \
- C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/tx_cmsis.h \
  C:\Users\Alejandro\e2_studio\workspace\GUIApp\src\synergy_gen/hal_data.h \
  C:\Users\Alejandro\e2_studio\workspace\GUIApp\src\synergy_gen/common_data.h \
  C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_jpeg_decode.h \
@@ -60,10 +66,6 @@ src/guiapp_event_handlers.o: ../src/guiapp_event_handlers.c \
  C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_display_api.h \
  C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\instances/sf_el_gx.h \
  C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\api/sf_el_gx_api.h \
- C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/gx_api.h \
- C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/tx_api.h \
- C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/gx_port.h \
- C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy_cfg\ssp_cfg\framework\el/gx_user.h \
  C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/gx_display.h \
  C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\instances/sf_message.h \
  C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\api/sf_message_api.h \
@@ -94,9 +96,26 @@ src/guiapp_event_handlers.o: ../src/guiapp_event_handlers.c \
  C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy_cfg\ssp_cfg\driver/r_riic_cfg.h \
  C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_i2c_api.h \
  C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\instances/sf_touch_panel_i2c.h \
- ../src/gui/guiapp_resources.h ../src/gui/guiapp_specifications.h
+ C:\Users\Alejandro\e2_studio\workspace\GUIApp\src\synergy_gen/sensors_thread.h \
+ C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_gpt.h \
+ C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_timer_api.h \
+ C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_adc.h \
+ C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy_cfg\ssp_cfg\driver/r_adc_cfg.h \
+ C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_adc_api.h
 
-C:\Users\Alejandro\e2_studio\workspace\GUIApp\src\synergy_gen/main_thread.h:
+../src/gui/guiapp_resources.h:
+
+C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/gx_api.h:
+
+C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/tx_api.h:
+
+C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/tx_port.h:
+
+c:\users\alejandro\e2_studio\workspace\guiapp\synergy\ssp\inc\framework\el\cm4_gcc\tx_port.h:
+
+C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy_cfg\ssp_cfg\framework\el/tx_user.h:
+
+C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/tx_cmsis.h:
 
 C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\bsp/bsp_api.h:
 
@@ -186,15 +205,15 @@ c:\users\alejandro\e2_studio\workspace\guiapp\synergy\ssp\src\bsp\mcu\all\bsp_mc
 
 c:\users\alejandro\e2_studio\workspace\guiapp\synergy\ssp\src\bsp\mcu\all\bsp_error_checking.h:
 
+C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/gx_port.h:
+
+C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy_cfg\ssp_cfg\framework\el/gx_user.h:
+
+../src/gui/guiapp_specifications.h:
+
+C:\Users\Alejandro\e2_studio\workspace\GUIApp\src\synergy_gen/main_thread.h:
+
 C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/tx_api.h:
-
-C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/tx_port.h:
-
-c:\users\alejandro\e2_studio\workspace\guiapp\synergy\ssp\inc\framework\el\cm4_gcc\tx_port.h:
-
-C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy_cfg\ssp_cfg\framework\el/tx_user.h:
-
-C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/tx_cmsis.h:
 
 C:\Users\Alejandro\e2_studio\workspace\GUIApp\src\synergy_gen/hal_data.h:
 
@@ -217,14 +236,6 @@ C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_displ
 C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\instances/sf_el_gx.h:
 
 C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\api/sf_el_gx_api.h:
-
-C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/gx_api.h:
-
-C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/tx_api.h:
-
-C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/gx_port.h:
-
-C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy_cfg\ssp_cfg\framework\el/gx_user.h:
 
 C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\el/gx_display.h:
 
@@ -286,6 +297,14 @@ C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_i2c_a
 
 C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\instances/sf_touch_panel_i2c.h:
 
-../src/gui/guiapp_resources.h:
+C:\Users\Alejandro\e2_studio\workspace\GUIApp\src\synergy_gen/sensors_thread.h:
 
-../src/gui/guiapp_specifications.h:
+C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_gpt.h:
+
+C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_timer_api.h:
+
+C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_adc.h:
+
+C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy_cfg\ssp_cfg\driver/r_adc_cfg.h:
+
+C:\Users\Alejandro\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_adc_api.h:
