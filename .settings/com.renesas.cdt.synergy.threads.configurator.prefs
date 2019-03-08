@@ -1,8 +1,11 @@
+collapse/module.driver.adc_on_adc.601675546=false
 collapse/module.driver.display_on_glcd.281635274=false
+collapse/module.driver.external_irq_on_icu.1362527170=false
 collapse/module.driver.external_irq_on_icu.1515713726=false
 collapse/module.driver.i2c_on_riic.1210638112=false
 collapse/module.driver.jpeg_decode.1628147922=false
 collapse/module.driver.spi_on_sci_spi.1356515693=false
+collapse/module.driver.timer_on_gpt.1903805390=false
 collapse/module.driver.transfer_on_dtc.627560739=false
 collapse/module.driver.transfer_on_dtc.872690156=false
 collapse/module.el.gx.980431555=false

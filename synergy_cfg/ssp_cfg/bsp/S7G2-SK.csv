@@ -356,7 +356,7 @@ SCI3: SDA
 SCI3: TXD_MOSI
 USBFS0: EXICEN
 USBHS0: EXICEN"
-"P410","41","","","","","Disabled","","","AGT1: AGTOB
+"P410","41","GPIO","int_ch5","","IRQ5","Input mode","","None","AGT1: AGTOB
 CTSU0: TS06
 ETHERC0: RXD1
 GPT9: GTIOCB
@@ -367,7 +367,7 @@ SCI0: SCL
 SCI3: SCK
 SDHI0: DAT1
 SPI0: MISO"
-"P411","40","","","","","Disabled","","","AGT1: AGTOA
+"P411","40","GPT9_GTIOCA","","Low","None","Peripheral mode","CMOS","None","AGT1: AGTOA
 CTSU0: TS07
 ETHERC0: RXD0
 GPT9: GTIOCA

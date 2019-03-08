@@ -307,6 +307,12 @@ Synergy Configuration
     Parameter Checking: Default (BSP)
     
   Module "JPEG Common"
+  Module "ADC Driver on r_adc"
+    Parameter Checking: Enabled
+    
+  Module "Timer Driver on r_gpt"
+    Parameter Checking: Default (BSP)
+    
   HAL
     Instance "g_cgc CGC Driver on r_cgc"
       Name [Fixed]: g_cgc
@@ -646,6 +652,129 @@ Synergy Configuration
       Name: New Semaphore
       Symbol: g_main_semaphore_lcdc
       Initial count: 0
+      
+  Thread "Sensors Thread"
+    Symbol: sensors_thread
+    Name: Sensors Thread
+    Stack size (bytes): 1024
+    Priority: 5
+    Auto start: Enabled
+    Time slicing interval (ticks): 10
+    
+    Instance "g_adc0 ADC Driver on r_adc"
+      Name: g_adc0
+      Unit: 0
+      Resolution (resolution varies by MCU): 12-Bit
+      Alignment: Right
+      Clear after read: On
+      Mode: Continuous Scan
+      Internal Calibration During Open(): Enabled
+      Channel Scan Mask (channel availability varies by MCU): Select channels below
+          Channel 0: Use in Normal/Group A
+          Channel 1: Unused
+          Channel 2: Unused
+          Channel 3: Unused
+          Channel 4: Unused
+          Channel 5: Unused
+          Channel 6: Unused
+          Channel 7: Unused
+          Channel 8: Unused
+          Channel 9: Unused
+          Channel 10: Unused
+          Channel 11: Unused
+          Channel 12: Unused
+          Channel 13: Unused
+          Channel 14 (S3 series Only): Unused
+          Channel 15 (S3A7/S3A3 Only): Unused
+          Channel 16: Unused
+          Channel 17: Unused
+          Channel 18: Unused
+          Channel 19: Unused
+          Channel 20: Unused
+          Channel 21 (Unit 0 Only): Unused
+          Channel 22: Unused
+          Channel 23: Unused
+          Channel 24: Unused
+          Channel 25 (S3 series only): Unused
+          Channel 26 (S3A7/S3A3 Only): Unused
+          Channel 27 (S3A7/S3A3 Only): Unused
+          Temperature Sensor: Unused
+          Voltage Sensor: Unused
+      Normal/Group A Trigger: Software
+      Group B Trigger (Valid only in Group Scan Mode): ELC Event (The only valid trigger for either group in Group Scan Mode)
+      Group Priority (Valid only in Group Scan Mode): Group A cannot interrupt Group B
+      Add/Average Count: Disabled
+      Addition/Averaging Mask (channel availability varies by MCU): Select channels to perform addition/averaging below
+          Channel 0: Disabled
+          Channel 1: Disabled
+          Channel 2: Disabled
+          Channel 3: Disabled
+          Channel 4: Disabled
+          Channel 5: Disabled
+          Channel 6: Disabled
+          Channel 7: Disabled
+          Channel 8: Disabled
+          Channel 9: Disabled
+          Channel 10: Disabled
+          Channel 11: Disabled
+          Channel 12: Disabled
+          Channel 13: Disabled
+          Channel 14: Disabled
+          Channel 15: Disabled
+          Channel 16: Disabled
+          Channel 17: Disabled
+          Channel 18: Disabled
+          Channel 19: Disabled
+          Channel 20: Disabled
+          Channel 21: Disabled
+          Channel 22: Disabled
+          Channel 23: Disabled
+          Channel 24: Disabled
+          Channel 25: Disabled
+          Channel 26: Disabled
+          Channel 27: Disabled
+          Temperature Sensor: Disabled
+          Voltage Sensor: Disabled
+      Sample and Hold Mask: Select channels for which individual sample and hold circuit is to be enabled
+          Channel 0: Disabled
+          Channel 1: Disabled
+          Channel 2: Disabled
+      Sample Hold States (Applies only to the 3 channels selected above): 24
+      Callback: NULL
+      Scan End Interrupt Priority: Disabled
+      Scan End Group B Interrupt Priority: Disabled
+      
+    Instance "g_timer9 Timer Driver on r_gpt"
+      Name: g_timer9
+      Channel: 9
+      Mode: PWM
+      Period Value: 1
+      Period Unit: Kilohertz
+      Duty Cycle Value: 50000
+      Duty Cycle Unit: Unit Percent X 1000
+      Auto Start: True
+      GTIOCA Output Enabled: True
+      GTIOCA Stop Level: Pin Level Low
+      GTIOCB Output Enabled: False
+      GTIOCB Stop Level: Pin Level Low
+      Callback: NULL
+      Overflow Interrupt Priority: Disabled
+      
+    Instance "g_external_irq5 External IRQ Driver on r_icu"
+      Name: g_external_irq5
+      Channel: 5
+      Trigger: Rising
+      Digital Filtering: Enabled
+      Digital Filtering Sample Clock (Only valid when Digital Filtering is Enabled): PCLK / 64
+      Interrupt enabled after initialization: True
+      Callback: irq_410_callback
+      Pin Interrupt Priority: Priority 5
+      
+    Object "g_values_queue Queue"
+      Name: Values Queue
+      Symbol: g_values_queue
+      Message Size (Words): 4
+      Queue Size (Bytes): 16
       
   Messaging
     Subscriber "Main Thread" 0 0

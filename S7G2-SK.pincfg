@@ -944,4 +944,17 @@
   <v1:propertySetting propertyId="p611.symbolic_name" value="GPIO43"/>
   <v1:propertySetting propertyId="p610.symbolic_name" value="GPIO42"/>
   <v1:propertySetting propertyId="p609.symbolic_name" value="GPIO41"/>
+  <v1:configSetting configurationId="gpt9.mode" altId="gpt9.mode.gtiocaorgtiocb.free"/>
+  <v1:configSetting configurationId="p411.gpio_mode" altId="p411.gpio_mode.gpio_mode_peripheral"/>
+  <v1:configSetting configurationId="p410.gpio_mode" altId="p410.gpio_mode.gpio_mode_in"/>
+  <v1:configSetting configurationId="p410" altId="p410.input"/>
+  <v1:configSetting configurationId="p411" altId="p411.gpt9.gtioca">
+    <v1:connectionSetting altId="gpt9.gtioca.p411"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="gpt9.gtioca" altId="gpt9.gtioca.p411">
+    <v1:connectionSetting altId="p411.gpt9.gtioca"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="irq0.mode" altId="irq0.mode.enabled"/>
+  <v1:configSetting configurationId="p410.gpio_irq" altId="p410.gpio_irq.gpio_irq_enabled"/>
+  <v1:propertySetting propertyId="p410.symbolic_name" value="int_ch5"/>
 </v1:pinSettings>

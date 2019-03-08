@@ -9,7 +9,8 @@ C_SRCS += \
 ../src/synergy_gen/main.c \
 ../src/synergy_gen/main_thread.c \
 ../src/synergy_gen/message_data.c \
-../src/synergy_gen/pin_data.c 
+../src/synergy_gen/pin_data.c \
+../src/synergy_gen/sensors_thread.c 
 
 OBJS += \
 ./src/synergy_gen/common_data.o \
@@ -17,7 +18,8 @@ OBJS += \
 ./src/synergy_gen/main.o \
 ./src/synergy_gen/main_thread.o \
 ./src/synergy_gen/message_data.o \
-./src/synergy_gen/pin_data.o 
+./src/synergy_gen/pin_data.o \
+./src/synergy_gen/sensors_thread.o 
 
 C_DEPS += \
 ./src/synergy_gen/common_data.d \
@@ -25,7 +27,8 @@ C_DEPS += \
 ./src/synergy_gen/main.d \
 ./src/synergy_gen/main_thread.d \
 ./src/synergy_gen/message_data.d \
-./src/synergy_gen/pin_data.d 
+./src/synergy_gen/pin_data.d \
+./src/synergy_gen/sensors_thread.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
