@@ -3,8 +3,8 @@
 #include "main_thread.h"
 #include "sensors_thread.h"
 
-#define APP_TIMER_ID        (101)
-#define APP_TIMER_PERIOD    (30)
+#define APP_TIMER_ID (101)
+#define APP_TIMER_PERIOD (30)
 
 ULONG my_rcv_message[4] = {0x00, 0x00, 0x00};
 

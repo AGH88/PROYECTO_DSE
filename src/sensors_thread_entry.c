@@ -16,9 +16,9 @@ int32_t i32integral_error = 0;
 int32_t i32derivada_error = 0;
 int32_t i32error_anterior = 0;
 uint32_t ui32salida = 0;
-double kp = 5.7;
-double ki = 1.9;
-double kd = 0.0;
+double do32kp = 5.7;
+double do32ki = 1.9;
+double do32kd = 0.0;
 
 ULONG my_message[4] = {0x00, 0x00, 0x00};
 
@@ -43,7 +43,7 @@ void sensors_thread_entry(void)
         i32speed_error = (int32_t)ui32Set_Point - (int32_t)ui32vel_rpm;
         i32integral_error += i32speed_error;
         i32derivada_error = i32speed_error - i32error_anterior;
-        ui32salida = (uint32_t) ((double)i32speed_error * kp + i32integral_error * ki + i32derivada_error * kd) * 1000 + 800000;
+        ui32salida = (uint32_t) ((double)i32speed_error * do32kp + i32integral_error * do32ki + i32derivada_error * do32kd) * 1000 + 800000;
         i32error_anterior = i32speed_error;
 
         if(ui32salida > 10000000){
