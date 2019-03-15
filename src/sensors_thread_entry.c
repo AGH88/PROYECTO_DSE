@@ -56,7 +56,7 @@ void sensors_thread_entry(void)
         }
 
         ui32pwm0_dc = ui32salida;                                                                                                   //ui32pwm0_dc = (uint32_t)u16adc0_data * 2442;
-        ui32ciclo_trabajo = ui32pwm0_dc / 100000;                                                                                    //ui32pwm0_dc = u32ciclo_trabajo;
+        ui32ciclo_trabajo = ui32pwm0_dc / 100000;                                                                                   //ui32pwm0_dc = u32ciclo_trabajo;
         g_timer9.p_api->dutyCycleSet(g_timer9.p_ctrl, (100000 - (ui32pwm0_dc / 100)), TIMER_PWM_UNIT_PERCENT_X_1000, 0);            //g_timer9.p_api->dutyCycleSet(g_timer9.p_ctrl, (100000 - ui32pwm0_dc), TIMER_PWM_UNIT_PERCENT_X_1000, 0);
 
         my_message[0] = ui32vel_rpm;
@@ -84,8 +84,6 @@ void irq_410_callback(external_irq_callback_args_t *p_args)
     }
 
     ui32elapsed_time = ui32elapsed_time / SYST_CLOCK_MS;
-
     ui32past_time = ui32actual_time;
-
     ui32vel_rpm = 150000 / ui32elapsed_time;
 }
